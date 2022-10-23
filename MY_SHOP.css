@@ -10,9 +10,11 @@
   height: 500px;
   width: 325px;
   object-fit: fill;
+
+  background-blend-mode: multiply;
+  background: none;
 }
-body {
-}
+
 .description {
   width: 50%;
   text-align: justify;
@@ -28,4 +30,10 @@ body {
   font-size: 0.7em;
   font-style: normal;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.classLink {
+  color: rgb(100, 100, 100);
+}
+.displHide {
+  display: none;
 }
